@@ -1,0 +1,7 @@
+fastapi>=0.110
+uvicorn>=0.29
+httpx>=0.27      # for FastAPI TestClient
+pytest>=8.0
+# Optional LLM mode: install the one for your provider
+# openai>=1.0       (OpenAI, Ollama, Groq, Together, vLLM...)
+# anthropic>=0.40
